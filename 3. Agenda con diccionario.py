@@ -9,7 +9,7 @@ def buscar(nombre):
 def eliminar(nombre):
     agenda.pop(nombre, None)
 
-# Ejemplo
+
 agregar("Ana", "123")
 print(buscar("Ana"))
 eliminar("Ana")
